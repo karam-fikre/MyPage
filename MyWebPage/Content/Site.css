@@ -1,6 +1,6 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    margin: 0;
+    font-family: Arial;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,3 +22,36 @@ select,
 textarea {
     max-width: 280px;
 }
+
+a {
+    border-radius: 10px;
+    cursor:pointer;
+}
+.top-container {
+    background-image: url("../Images/pexels-photo-574080.jpeg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:300px;
+    padding: 30px;
+    text-align: center;
+}
+.header {
+    padding: 10px 16px;
+    background-image: radial-gradient(circle, #ffe6e6, #f6e5e9, #ede4ea, #e6e3e7, #e1e1e1);
+    color: #f1f1f1;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+    .sticky + .content {
+        padding-top: 102px;
+    }
